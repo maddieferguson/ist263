@@ -1,9 +1,16 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h1,h2{
-    color:violet
+h1{
+    color:violet;
+    font-size: 2em
 }
+
+h2{
+    color:slateblue;
+    font-size: 1.5em 
+}
+
 
 .special{background-color:wheat}
 
