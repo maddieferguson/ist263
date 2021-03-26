@@ -1,4 +1,10 @@
-<head>
-    <title>CSS lab06</title>
-    <link rel="stylesheet" href="/path/stylesheet.css"
-</head>
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2{
+    color:violet
+}
+
+.special{background-color:wheat}
+
+.evenrow{background-color:skyblue}
