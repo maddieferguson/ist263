@@ -10,7 +10,6 @@ a:visited {color: #83b06f;}
 a:hover{color: #6f9ab0;}
 
 p{color: #f72dad;
-    background-color: #b7ede0;
     width: 400px;
 }
 
@@ -28,13 +27,10 @@ nav a:hover {background-color: #ebbccd;}
 .symbol {float:left;}
 .quote {float:right;}
 
-.maddie {float:right;}
+.address {float: left;}
+.address {background-color: #C0C0C0;}
+.linkedin {background-color: #c0c0c0;}
 
-
-
-
-
-
-
+.clear {clear: both;}
 
 
