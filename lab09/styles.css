@@ -46,3 +46,5 @@ nav a:hover {background-color: #ebbccd;}
 .part2 {border-radius: 3%;}
 
 .clear {clear: both;}
+
+.header {max-width: 100%;}
