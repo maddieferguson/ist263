@@ -36,15 +36,18 @@ nav a:hover {background-color: #ebbccd;}
 }
 .section1 {border-radius: 3%;}
 
-
-.part2 {display: flex;
+.part2 {display: flex; flex-wrap: wrap;
         padding: 10px;
         margin: 30px;
         border: 5px solid #b7dded;
+        justify-content: space-around;
 }
+
 .part2 {background-color: #C0C0C0;}
 .part2 {border-radius: 3%;}
 
 .clear {clear: both;}
 
 .header {max-width: 100%;}
+
+@media only screen and (min-width: 920px)
