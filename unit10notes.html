@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 10 Accessibility</title>
+        <style>
+            #skip {
+                position: absolute;
+                left: -999px;
+                background-color: white;
+                border: 1px solid black;
+            }
+            /* this position based on top of left of viewport and pushes the skip link off screen */
+            #skip:focus {
+                position: absolute;
+                left: 10px;
+            }
+            /* when you tab to skip link it moves it back on screen */
+        </style>
+    </head>
+    <body>
+        <h1>Accessibility</h1>
+        <!-- make sure your use h1 for main heading
+        h2 for subheading, h3 for sub sub heading etc. -->
+
+        <img src="Images/logo-sized.png" alt="">
+        <!-- nothing in qutoes means screen reader ignores -->
+        <!-- do not put image of or photo of -->
+
+        <a href="#maincontent" id="skip">Skip to Content</a>
+        <!-- pound sign says we are linking within page to an element that has an id of maincontent -->
+        <a href="http://www.google.com" tabindex="3">Google</a>
+        <a href="http://www.amazon.com" tabindex="2">Amazon</a>
+        <a href="http://www.ebay.com" tabindex="1">Ebay</a>
+        <!-- for complex layouts determine order of items tabbed thur-->
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        <a id="maincontent"></a>
+        <!-- Here's the thing the anchor tag link to -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </body>
+</html>

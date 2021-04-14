@@ -50,6 +50,18 @@ nav a:hover {background-color: #ebbccd;}
 
 .header {max-width: 100%;}
 
+#skip {
+    position: absolute;
+    left: -999px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#skip:focus {
+    position: absolute;
+    left: 10px;
+}
+
 @media only screen and (min-width: 920px){}
 @media only screen and (max-width: 600px){}
 
