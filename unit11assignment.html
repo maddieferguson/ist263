@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 11 JavaScript Example</title>
+        <script>
+            function SayHello() {
+            alert('Hello World');
+            }
+            function BlankElement() {
+                alert('You Left this form element blank');
+            }
+        </script>
+    </head>
+    <body>
+        <form action="mailto:mfergu05@syr.edu" method="POST">
+            <label for="firstname">Enter your name:</label>
+                <input onblur="BlankElement();" type="text" name="firstname" id="firstname"><br>
+            
+            <label for="comments">Enter your  comments:</label><br>
+            <textarea name="comments" id="comments" rows="10">Tell us what you think!!!</textarea><br>
+
+            <label for="year">What is your year in school?</label>
+            <select name="year" id="year">
+                <option value="Fr">First Year</option>
+                <option value="So">Second Year</option>
+                <option value="Jr">Third Year</option>
+                <option value="Sn">Fourth Year</option>
+                <option value="Fi">Fifth Year</option>
+            </select> <br>
+
+            <input type="submit" value="Send Application">
+        </form>
+    </body>
+</html>
