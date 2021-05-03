@@ -1,0 +1,109 @@
+Body{
+    background-color: #F2C5E0;
+}
+
+.header {width: 100%;
+        height: auto;
+}
+
+h1{color:#870A30;
+   font-family:brush script MT;
+   text-align: center;
+   font-size: 40px;
+}
+
+h2{color:#D43790;
+   font-family:'Courier New', Courier, monospace;
+   text-align: center;
+}
+
+p{color:hsl(330, 36%, 34%);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align:center;
+  position: relative;
+}
+
+ul {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #870A30;
+  }
+  
+  li {float: left;}
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .daises {display: flex;
+    padding: 10px;
+    margin: 30px;
+    border: 5px solid #870A30;
+    justify-content: space-around;
+    background-color: #c2bec0;
+    border-radius: 10px;
+}
+
+.ohmydarling {display: flex;
+    padding: 10px;
+    margin: 30px;
+    border: 5px solid #870A30;
+    justify-content: space-around;
+    background-color: #c2bec0;
+    border-radius: 10px;
+}
+
+.york {display: flex;
+    padding: 10px;
+    margin: 30px;
+    border: 5px solid #870A30;
+    justify-content: space-around;
+    background-color: #c2bec0;
+    border-radius: 10px;
+}
+
+.riseandshine {display: flex; 
+    padding: 10px;
+    margin: 30px;
+    border: 5px solid #870A30;
+    justify-content: space-around;
+    background-color: #c2bec0;
+    border-radius: 10px;
+}
+
+.symbol{float: left;}
+.quote{float: right;}
+
+.ohmy {float: left;
+        max-width: 100%;
+}
+.crazy {float: left;
+        max-width: 100%;
+}
+
+.baryork {float: left;
+        max-width: 100%;
+}
+
+.shine {float: left;
+        max-width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .ul {display: none;}
+}
+
+@media only screen and (min-width: 920px) {
+}
