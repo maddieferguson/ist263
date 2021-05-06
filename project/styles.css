@@ -13,8 +13,8 @@ h1{color:#870A30;
 }
 
 h2{color:#870a30;
-   font-family:'Courier New', Courier, monospace;
    text-align: center;
+   font-family: 'Roboto Condensed', sans-serif;
 }
 
 p{color:hsl(330, 36%, 34%);
