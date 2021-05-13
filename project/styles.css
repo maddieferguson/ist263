@@ -17,9 +17,25 @@ h2{color:#870a30;
    font-family: 'Roboto Condensed', sans-serif;
 }
 
+h3{
+  color: #870a30;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h4{
+  color: #870a30;
+  font-family:brush script MT;
+  text-align:center;
+}
+
 p{color:hsl(330, 36%, 34%);
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align:center;
+  position: relative;
+}
+
+ol{color:hsl(330, 36%, 34%);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   position: relative;
 }
 
@@ -82,6 +98,80 @@ ul {
     border-radius: 10px;
 }
 
+.cranberrykamikaze {display: flex; 
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid #870A30;
+  justify-content: space-around;
+  background-color: #c2bec0;
+  border-radius: 10px;
+}
+
+.thehangover {display: flex; 
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid #870A30;
+  justify-content: space-around;
+  background-color: #c2bec0;
+  border-radius: 10px;
+}
+
+.dirtyshirley {display: flex; 
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid #870A30;
+  justify-content: space-around;
+  background-color: #c2bec0;
+  border-radius: 10px;
+}
+
+.coronasunrise {display: flex; 
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid #870A30;
+  justify-content: space-around;
+  background-color: #c2bec0;
+  border-radius: 10px;
+}
+
+.address {display: flex; 
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid #870A30;
+  justify-content: space-around;
+  background-color: #c2bec0;
+  border-radius: 10px;
+}
+
+.socials {display: flex; 
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid #870A30;
+  justify-content: space-around;
+  background-color: #c2bec0;
+  border-radius: 10px;
+}
+
+.section1 {display: flex; 
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid #870A30;
+  justify-content: space-around;
+  background-color: #c2bec0;
+  border-radius: 10px;
+}
+
+.intro {display: flex; 
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid #870A30;
+  justify-content: space-around;
+  background-color: #c2bec0;
+  border-radius: 10px;
+}
+
+.intro {float:left;}
+
 .symbol{float: left;}
 .quote{float: right;}
 
@@ -100,10 +190,93 @@ ul {
         max-width: 100%;
 }
 
+.kamikaze {float: left;
+            max-width: 100%;
+}
+
+.dirty {float: left;
+        max-width: 100%;
+}
+
+.beers {float: left;
+      max-width: 100%;
+}
 
 @media only screen and (max-width: 600px) {
     .ul {display: none;}
 }
 
 @media only screen and (min-width: 920px) {
+}
+
+
+#hangovertext {
+  float:left; 
+  width:33.3%;
+  height:285px;
+}
+#hangoverimage{
+  float:left; 
+  width:33.3%;
+  height:285px;
+}
+#hangoverinstructions{
+  float:right;
+  width:33.3%;
+  height:285px;
+}
+
+#cranberrytext {
+  float:left; 
+  width:33.3%;
+  height:350px;
+}
+
+#cranberryimage {
+  float:left; 
+  width:33.3%;
+  height:350px;
+}
+
+#cranberryinstructions {
+  float:right;
+  width:33.3%;
+  height:350px;
+}
+
+#shirleytext {
+  float:left; 
+  width:33.3%;
+  height:325px;
+}
+#shirleyimage{
+  float:left; 
+  width:33.3%;
+  height:325px;
+}
+#shirleyinstructions{
+  float:right;
+  width:33.3%;
+  height:325px;
+}
+
+#coronatext {
+  float:left; 
+  width:33.3%;
+  height:280px;
+}
+#coronaimage{
+  float:left; 
+  width:33.3%;
+  height:280px;
+}
+#coronainstructions{
+  float:right;
+  width:33.3%;
+  height:280px;
+}
+
+
+.hr {
+  size:1px;
 }
