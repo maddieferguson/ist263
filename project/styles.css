@@ -1,5 +1,5 @@
 Body{
-    background-color: #F2C5E0;
+    background-color: hsl(324, 63%, 86%);
 }
 
 .header {width: 100%;
@@ -71,6 +71,15 @@ ul {
     border-radius: 10px;
 }
 
+.websitetitle {display: flex;
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid #870A30;
+  justify-content: space-around;
+  background-color: #c2bec0;
+  border-radius: 10px;
+}
+
 .ohmydarling {display: flex;
     padding: 10px;
     margin: 30px;
@@ -87,6 +96,24 @@ ul {
     justify-content: space-around;
     background-color: #c2bec0;
     border-radius: 10px;
+}
+
+.recipeexample {display: flex;
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid #870A30;
+  justify-content: space-around;
+  background-color: #c2bec0;
+  border-radius: 10px;
+}
+
+.resturantexample {display: flex;
+  padding: 10px;
+  margin: 30px;
+  border: 5px solid #870A30;
+  justify-content: space-around;
+  background-color: #c2bec0;
+  border-radius: 10px;
 }
 
 .riseandshine {display: flex; 
@@ -170,8 +197,6 @@ ul {
   border-radius: 10px;
 }
 
-.intro {float:left;}
-
 .symbol{float: left;}
 .quote{float: right;}
 
@@ -186,11 +211,19 @@ ul {
         max-width: 100%;
 }
 
+.recipe1image {float: left;
+        max-width: 100%;
+}
+
+.restexample {float: right;
+            max-width: 100%; 
+}
+
 .shine {float: left;
         max-width: 100%;
 }
 
-.kamikaze {float: left;
+.kamikaze {float: center;
             max-width: 100%;
 }
 
@@ -200,6 +233,10 @@ ul {
 
 .beers {float: left;
       max-width: 100%;
+}
+
+.maddiephoto {float: left;
+            max-width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -239,7 +276,7 @@ ul {
 }
 
 #cranberryinstructions {
-  float:right;
+  float:left;
   width:33.3%;
   height:350px;
 }
@@ -280,3 +317,4 @@ ul {
 .hr {
   size:1px;
 }
+
